@@ -522,7 +522,7 @@ add_action('wp_head','elv_hook_google_a');
 
 
 add_filter('widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args');
-//include(WP_CONTENT_DIR . '/themes/vip/plugins/vip-init.php');
+include(WP_CONTENT_DIR . '/themes/vip/plugins/vip-init.php');
 include(get_template_directory() . '/elevate-includes/elv_TinyMCE_custom.php');
 include(get_template_directory() . '/elevate-includes/elv_core-functions.php');
 include(get_template_directory() . '/elevate-includes/elv_custom_category_fields.php');
