@@ -44,7 +44,7 @@ function elv_get_headings($v)
  */
 function elv_find_right_background_image($background_data){
     $persona = 1;
-    $persona = elv_get_persona_name(elv_get_persona_id());
+   // $persona = elv_get_persona_name(elv_get_persona_id());
     
     $a_background_data = (array) vc_param_group_parse_atts( $background_data );
     $background_images = array();
@@ -186,6 +186,7 @@ function elv_is_new_user($hash)
 function elv_get_persona_id()
 {
 
+    $hash = 1;
 
     if (elv_get_current_hash() != '') {
         $hash = elv_get_current_hash();

@@ -17,10 +17,7 @@ function elv_create_booking_modal_html(
 	$pSubBookingHeading,
 	$pBookingTimeLocations,
 	$pBookingDate,
-	$eventBookingFile,
-	$pBookingHeading,
-	$pBookingTimeLocations,
-	$pBookingDate
+	$eventBookingFile
 )
 {
 
